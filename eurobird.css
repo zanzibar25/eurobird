@@ -87,7 +87,7 @@ body{
 
 @media screen and (max-width: 650px) {
     main{
-        width: 100%;
+        width: 90%;
         position: absolute;
         height: 80%;
         font-size: 1.2em;
