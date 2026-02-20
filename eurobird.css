@@ -84,11 +84,11 @@ body{
 
 
 @media screen and (max-width: 600px) {
-    footer{
-        width: 70%;
+    main{
+        width: 90%;
+        position: absolute;
         height: auto;
         font-size: 1.2em;
-        position: static;
         margin-top: 0px;
     }
 }
