@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="eurobird.css">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="relocation()">contact</button>
+    <div class="main" id="animatedText">driven by passion, elevated by technology
+        <div class="contact"><p>eurobird.nl</p><p>e-mail: eurobird@live.nl</p><p>Schoonebeek</p>
+       
+       
+       
+        </div>
+    </div>
+    
+<script>
+  const main = document.getElementById("animatedText");
+
+  main.addEventListener("click", () => {
+    main.classList.toggle("flip");
+  });
+  function relocation() {
+    window.location.href = "contact.html";
+  }
+</script>
+
+</body>
+</html>
+ 
+ 
