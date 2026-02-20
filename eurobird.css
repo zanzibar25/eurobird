@@ -40,30 +40,26 @@ body{
     display: inline-block;
     transition: transform 1s ease;
     transform-style: preserve-3d;
-    animation: flipColor 10s infinite linear;
+    animation: flipColor 25s infinite linear;
    
 }
 
    @keyframes flipColor {
     0% {
         transform: rotateY(0deg);
-        color: white;
-    } 
-    25% {
-        transform: rotateY(90deg);
-        color: blue;
-    }
-    50% {
-        transform: rotateY(180deg);
         color: indigo;
     }
-    75% {
-        transform: rotateY(270deg);
-        color: blue;
+    33% {
+        transform: rotateY(120deg);
+        color: violet;
+    }
+    66% {
+        transform: rotateY(240deg);
+        color: cyan;
     }
     100% {
         transform: rotateY(360deg);
-        color: white;
+        color: blue;
     }
      
    }
