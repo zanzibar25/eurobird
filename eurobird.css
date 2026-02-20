@@ -87,7 +87,7 @@ body{
     main{
         width: 90%;
         position: absolute;
-        height: auto;
+        height: 80%;
         font-size: 1.2em;
         margin-top: 0px;
     }
