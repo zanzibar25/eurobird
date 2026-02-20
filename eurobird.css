@@ -4,6 +4,9 @@
     box-sizing: border-box;
     background-color: black;;
 }
+html, body{
+    height: 100%;
+}
 
 button{
     position: absolute;
@@ -21,7 +24,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100dvh;
+    min-height: 100dvh;
+    overflow: hidden;
     perspective: 800px; 
 }
 
