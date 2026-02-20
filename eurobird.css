@@ -47,23 +47,25 @@ body{
    @keyframes flipColor {
     0% {
         transform: rotateY(0deg);
-        color: blue;
+        color: white;
     } 
-    33% {
+    25% {
         transform: rotateY(90deg);
+        color: blue;
+    }
+    50% {
+        transform: rotateY(180deg);
         color: indigo;
     }
-    66% {
-        transform: rotateY(180deg);
-        color: blue;
-   }100% {
+    75% {
         transform: rotateY(270deg);
-        color: white;
+        color: blue;
     }
     100% {
         transform: rotateY(360deg);
-        color: indigo;
+        color: white;
     }
+     
    }
       
   .flip {
