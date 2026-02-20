@@ -81,3 +81,14 @@ body{
     font-size: 1rem;
 }
  
+
+
+@media screen and (max-width: 600px) {
+    footer{
+        width: 70%;
+        height: auto;
+        font-size: 1.2em;
+        position: static;
+        margin-top: 10px;
+    }
+}
