@@ -27,46 +27,43 @@ body{
     min-height: 100svh;
     perspective: 800px; 
 }
-
-.main{
+ .main {
     background-color: black;
     color: white;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-    display: inline-block;
-    transition: transform 1s ease;
+    padding: 20px;
+    transition: transform 1s ease, color 1s ease;
     transform-style: preserve-3d;
-    animation: flipColor 25s infinite linear;
+
+    
+    transform: rotateY(90deg);
+
    
+    animation: flipColor 25s infinite linear;
 }
 
-   @keyframes flipColor {
+@keyframes flipColor {
     0% {
-        transform: rotateY(0deg);
+        transform: rotateY(180deg);
         color: indigo;
     }
     33% {
-        transform: rotateY(120deg);
+        transform: rotateY(300deg); 
         color: violet;
     }
     66% {
-        transform: rotateY(240deg);
+        transform: rotateY(420deg); 
         color: cyan;
     }
     100% {
-        transform: rotateY(360deg);
+        transform: rotateY(540deg); 
         color: blue;
     }
-     
-   }
-      
-  .flip {
-    transform: rotateY(360deg);
-  }
+}
 
 
 .contact{
@@ -85,7 +82,7 @@ body{
         width: 90%;
         position: absolute;
         height: 80%;
-        font-size: 1.2em;
+        font-size: 1.1em;
         margin-top: 0px;
     }
 }
