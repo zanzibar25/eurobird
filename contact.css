@@ -39,6 +39,9 @@ a{
         position: relative;
         margin-top: 20px;
     }
+    p{
+        font-size: 1.1em;
+    }
     a{
         font-size: 1.1em;
     }
